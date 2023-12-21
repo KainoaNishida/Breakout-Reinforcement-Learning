@@ -20,3 +20,28 @@ myenv\Scripts\activate
 
 # Activate the virtual environment (macOS/Linux)
 source myenv/bin/activate
+```
+
+### 2. Install Dependencies
+Use pip to install the necessary packages:
+
+```bash
+pip install gym
+pip install numpy
+pip install gym[atari]
+pip install atari-py
+pip install gym[classic_control]
+pip install tensorflow
+pip install torch torchvision
+pip install matplotlib
+```
+
+### 3. Download Project Files
+Clone or download all required files from the repository
+
+### 4. Run the Program
+Execute the following command:
+
+```bash
+python -m breakout
+```
