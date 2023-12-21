@@ -43,5 +43,5 @@ Clone or download all required files from the repository
 Execute the following command:
 
 ```bash
-python -m breakout
+python -m [game title]
 ```
